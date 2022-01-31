@@ -1,4 +1,4 @@
-package com.uniovi.sdi.sdiuo276824labjee;
+package com.uniovi.sdi;
 
 import java.io.*;
 import javax.servlet.http.*;
