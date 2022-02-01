@@ -5,9 +5,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.uniovi.sdi</groupId>
-  <artifactId>sdi-UO276824-lab-jee</artifactId>
+  <artifactId>sdi-2122-1008-lab-jee</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>sdi-UO276824-lab-jee</name>
+  <name>sdi-2122-1008-lab-jee</name>
   <packaging>war</packaging>
 
   <properties>
