@@ -11,7 +11,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="sdi-UO276824-lab-jee" />
+          <element id="module-output" name="sdi-2122-1008-lab-jee" />
         </element>
       </element>
       <element id="directory" name="META-INF">

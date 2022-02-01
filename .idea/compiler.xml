@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sdi-UO276824-lab-jee" />
+        <module name="sdi-2122-1008-lab-jee" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="sdi-UO276824-lab-jee" target="1.8" />
+      <module name="sdi-2122-1008-lab-jee" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
