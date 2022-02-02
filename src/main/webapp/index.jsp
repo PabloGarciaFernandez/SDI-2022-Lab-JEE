@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="utf-8" %>
-<%@ page language="java" import="com.uniovi.sdi.* , java.util.List"%>
+<%@ page language="java" import="com.uniovi.sdi.* , java.util.List" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <html lang="en">
@@ -27,7 +27,8 @@
             </li>
         </ul>
         <div class="nav navbar-right">
-            <jsp:getProperty name="counter" property="total"/> Visitas
+            <jsp:getProperty name="counter" property="total"/>
+            Visitas
         </div>
     </div>
 </nav>
@@ -40,11 +41,10 @@
         <c:forEach var="product" begin="0" items="${productsService.products}">
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <div>
-                    <img src="<c:out value="${product.image}"/>
+                    <img src="<c:out value="${product.image}"/>"/>
                     <div><c:out value="${product.name}"/></div>
-                    <a href="AddToShoppingCart?product=<c:out value="${product.name}"/>"
-                        <c:out value="${product.price}"/> €
-                    </a>
+                    <a href="AddToShoppingCart?product=<c:out value="${product.name}"/>" class="btn btn-default"> <c:out
+                            value="${product.price}"/> € </a>
                 </div>
             </div>
         </c:forEach>
