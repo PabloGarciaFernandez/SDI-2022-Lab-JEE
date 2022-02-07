@@ -10,14 +10,21 @@ public class ProductsService {
     public List<Product> getProducts() {
         List<Product> products = new LinkedList<Product>();
         ObjectContainer db = null;
-        try {
-            db = Db4oEmbedded.openFile("bdProducts");
-            List<Product> response = db.queryByExample(Product.class);
+        //try {
+        //    db = Db4oEmbedded.openFile("bdProducts");
+        //    List<Product> response = db.queryByExample(Product.class);
             // NO RETORNAR LA MISMA LISTA DE LA RESPUESTA
-            products.addAll(response);
-        } finally {
-            db.close();
-        }
+        //    products.addAll(response);
+        //} finally {
+        //    db.close();
+        //}
+        Product product1 = new Product();
+        product1.setName("Manzana");
+        products.add(product1);
+
+        Product product2 = new Product();
+        product1.setName("Naranja");
+        products.add(product2);
         return products;
     }
 
